@@ -1,0 +1,733 @@
+    1  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    2  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    3  wget https://downloads.slack-edge.com/linus_releases/slack-desktop-4.0.2-amd64.deb
+    4  sudo apt install ./slack-desktop-*.deb
+    5  wget https://downloads.slack-edge.com/linus_releases/slack-desktop-4.0.2-amd64.deb
+    6  wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
+    7  sudo apt install ./slack-desktop-*.deb
+    8  ssh-keygen -t rsa -b 4096 -C 'omi.kumari@xillio.com'
+    9  eval '$(sss-agent -s)'
+   10  Is -al ~/.ssh
+   11  ls -al ~/.ssh
+   12  ssh-add ~/.ssh/id_rsa
+   13  cd ~/downloads
+   14  cd ~/download
+   15  cd ~/downloads
+   16  cd ~/Downloads
+   17  sudo dpkg -i code_1.42.1-1581432938_amd64.deb
+   18  cat /var/log/lastlog 
+   19  cat /var/log/syslog
+   20  cat /var/log/syslog | more
+   21  curl https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/
+   22  sudo apt curl
+   23  git init
+   24  cd gittest
+   25  git status
+   26  git add
+   27  git add .
+   28  git stash
+   29  touch stash.py
+   30  gedit stash.py
+   31  git add .
+   32  git status
+   33  git stash show
+   34  gedit stash.py
+   35  git add .
+   36  git status
+   37  git commit -m "make changes"
+   38  getlog --oneline
+   39  cat edureka.py
+   40  cat omi.py
+   41  git revert HEAD
+   42  git checkout gittest
+   43  git checkout test
+   44  sudo apt-get update
+   45  sudo apt-get install software-properties-common
+   46  sudo apt-add-repository ppa:ansible/ansible
+   47  sudo apt-get update
+   48  sudo apt-get install ansible
+   49  ansible all -ping
+   50  ansible all
+   51  ls -al
+   52  ansible all -m setup
+   53  sudo nano /etc/ansible/hosts
+   54  ssh-copy-id -i knode
+   55  sudo nano /etc/ansible/hosts
+   56  ssh-copy-id -i knode
+   57  ssh-keygen
+   58  sudo nano /etc/ansible/hosts
+   59  ssh-copy-id -i knode
+   60  sudo nano /etc/ansible/hosts
+   61  ssh-copy-id -i knode
+   62  ansible -m ping test-servers
+   63  sudo nano /etc/ansible/hosts
+   64  ansible -m ping test-servers
+   65  sudo nano /etc/ansible/hosts
+   66  ansible -m ping test-servers
+   67  sudo nano /etc/ansible/hosts
+   68  ansible -m ping test-servers
+   69  sudo nano /etc/ansible/hosts
+   70  ansible -m ping test-servers
+   71  sudo nano /etc/ansible/hosts
+   72  -vvv
+   73  sudo nano /etc/ansible/hosts -vvv
+   74  sudo nano /etc/ansible/hosts
+   75  ansible -m ping test-servers
+   76  sudo nano /etc/ansible/hosts -vvv
+   77  ansible test-servers -m ping
+   78  ansible <host> -m ping
+   79  ls
+   80  ls -l
+   81  ls --help
+   82  ls -a
+   83  ls -al
+   84  cd .ssh/
+   85  ls
+   86  cat id_rsa.pub 
+   87  cd ~
+   88  cd /
+   89  cd ~
+   90  mkdir project
+   91  ls
+   92  cd project
+   93  git --help
+   94  sudo apt install git
+   95  git --help
+   96  man git
+   97  git clone https://github.com/xillio/lochub-management.git
+   98  git clone git@github.com:xillio/lochub-management.git
+   99  ls
+  100  cd lochub-management/
+  101  ls
+  102  cd home
+  103  git init
+  104  cd /
+  105  git init
+  106  cd lochub-management/
+  107  cd project
+  108  cd projects
+  109  cd project
+  110  cd /project
+  111  cd
+  112  cd projet
+  113  cd ~
+  114  cd project
+  115  cp file test
+  116  copy test
+  117  cp test
+  118  cp --help
+  119  cp file foo
+  120  cp -r directory foo
+  121  cd /
+  122  ls
+  123  cd ~
+  124  ls
+  125  cd project/lochub-management/roles/amazon-linux_update/tasks/
+  126  ls
+  127  cat main.yml 
+  128  nano main.yml 
+  129  vi main.yml 
+  130  vim main.yml 
+  131  sudo apt install vim -y
+  132  vim main.yml 
+  133  nano main.yml 
+  134  ssh bandit@bandit.labs.overthewire.org
+  135  ssh bandit0@bandit.labs.overthewire.org:2220
+  136  man
+  137  man ls
+  138  ls -a
+  139  ls -al
+  140  man ls
+  141  ls -a
+  142  ls-A
+  143  man ls
+  144  la -b
+  145  ls -c
+  146  ls -d
+  147  ls -a
+  148  ssh bandit0@bandit.labs.overthewire.org:2220
+  149  ssh bandit0@bandit.labs.overthewire.org -p2220
+  150  ssh bandit1@bandit.labs.overthewire.org -p2220
+  151  ssh bandit2@bandit.labs.overthewire.org -p2220
+  152  ssh bandit3@bandit.labs.overthewire.org -p2220
+  153  ssh bandit4@bandit.labs.overthewire.org -p2220
+  154  ssh bandit5@bandit.labs.overthewire.org -p2220
+  155  ssh bandit6@bandit.labs.overthewire.org -p2220
+  156  s 
+  157  ssh bandit6@bandit.labs.overthewire.org -p2220
+  158  ssh bandit7@bandit.labs.overthewire.org -p2220
+  159  ssh bandit8@bandit.labs.overthewire.org -p2220
+  160  ssh bandit9@bandit.labs.overthewire.org -p2220
+  161  ssh bandit10@bandit.labs.overthewire.org -p2220
+  162  sudo apt-get install git
+  163  git init
+  164  git config --globaluser.name 'Omi Kumari'
+  165  git config --global user.email 'omi.kumari@xillio.com'
+  166  git add index.html
+  167  git status
+  168  git config username 'omi25m'
+  169  git config user.name 'omi25m'
+  170  git config --global user.name 'omi25m'
+  171  git config --global user.email 'omi25m@gmail.com'
+  172  ls
+  173  mkdir gittest
+  174  cd gittest/
+  175  echo "# gittest" >> README.md
+  176  ls README.md
+  177  git init
+  178  git add README.md
+  179  git commit -m "first commit"
+  180  git remote add origin git@github.com:omi25m/gittest.git
+  181  git push -u origin master
+  182  ls -al
+  183  nano abc.txt
+  184  ls -al
+  185  nano abc.txt
+  186  add abc.txt
+  187  nano abc.txt
+  188  add abc.txt
+  189  git add abc.txt
+  190  git commit abc.txt
+  191  git commit -m "i added text"
+  192  git remote add origin git@github.com:omi25m/gittest.git
+  193  git push -u origin master
+  194  git commit -m "test"
+  195  git push -u origin
+  196  git add abcd.txt
+  197  nano abc.txt
+  198  git add abc.txt
+  199  git commit abc.txt
+  200  git commit -m  abc.txt
+  201  git --version
+  202  git add .
+  203  git commit -m "first commit"
+  204  git status
+  205  touch welcome.py
+  206  git add welcome.py
+  207  git status
+  208  git branch
+  209  git branch feature
+  210  git branch
+  211  git checkout feature
+  212  gedit edurekha.com
+  213  git add.
+  214  git add .
+  215  git commit -m "feature commit"
+  216  git checkout master
+  217  git merge feauture
+  218  git merge feature
+  219  git branch location
+  220  git branch -d feature
+  221  git branch -D feature
+  222  git checkout -b new
+  223  curl https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/
+  224  mkdir curl
+  225  cd curl
+  226  ls al-
+  227  ls -al
+  228  curl https://admin.xill.io:8080/tenants/8a80818f6c05c321016c3a291675002b
+  229  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+  230  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html -o abc.txt
+  231  sudo apt install curl
+  232  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+  233  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html more
+  234  curl https://admin.xill.io:8080/tenants/8a80818f6c05c321016c3a291675002b
+  235  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html more
+  236  cd /
+  237  cd gittest
+  238  cd /gittest
+  239  cd ./gittest
+  240  cd ~./gittest
+  241  cd /gittest..
+  242  cd git-gittest
+  243  cd gittest/
+  244  cd gittest-
+  245  cd -gittest
+  246  cd gittest/
+  247  git init
+  248  get install git
+  249  apt-get install git
+  250  y
+  251  apt-get install git
+  252  add-apt-repository ppa:git-core/ppa
+  253  apt install root
+  254  git config user.name 'omi25m'
+  255  sudo apt-get install software-properties-common
+  256  sudo apt-get install ansible
+  257  ansible-playbook --version
+  258  ansible-galaxy --help
+  259  ansible --list-hosts all
+  260  ansible --list
+  261  ansible --list-host
+  262  sudo vi /etc/ansible/hosts
+  263  ansible --list-hosts -all
+  264  ansible --list-hosts
+  265  cd ansible
+  266  cd ansible/
+  267  cd ./ansible
+  268  cls
+  269  clear
+  270  cd ansible/..
+  271  cd ../ansible
+  272  cd /ansible..
+  273  clear
+  274  ansible --list-hosts all
+  275  ansible --list-hosts al
+  276  ansible --list-hosts
+  277  ansible --list-hosts all
+  278  sudo vi /etc/ansible/hosts
+  279  ansible --list-hosts all
+  280  sudo vi /etc/ansible/hosts
+  281  cd /etc/ansible/
+  282  ls
+  283  nano hosts 
+  284  sudo nano hosts 
+  285  cd ~/project/Ansible/
+  286  ls
+  287  ansible --help
+  288  ansible -i Inventory --list-hosts all
+  289  ansible --list-hosts all
+  290  git status
+  291  cd ..
+  292  ld
+  293  ls
+  294  git clone git@github.com:omi25m/Ansible.git
+  295  mv Ansible Ansible.bak
+  296  git clone git@github.com:omi25m/Ansible.git
+  297  mv Ansible.bak/* Ansible/
+  298  ls Ansible
+  299  git --help
+  300  git: clone
+  301  git init
+  302  git :
+  303  git: clone 
+  304  git init
+  305  git add READ.md
+  306  git add README.md
+  307  git commit -m "first commit"
+  308  git remote add origin git@github.com:omi25m/Ansible.git
+  309  git push -u origin master
+  310  git commit -m "make commit"
+  311  git remote add origin git@github.com:omi25m/Ansible.git
+  312  git push -u origin master
+  313  Ansible >> README.md
+  314  echo "# Ansible" >> README.md
+  315  git init
+  316  git add README.md
+  317  git commit -m "first commit"
+  318  git remote add origin git@github.com:omi25m/Ansible.git
+  319  git push -u origin master
+  320  history 
+  321  cd ..
+  322  ls
+  323  rm Ansible.bak
+  324  rm Ansible.bak -r
+  325  rm Ansible.bak -rf
+  326  ls
+  327  history 
+  328  ansible --list-hosts all
+  329  cd ansible
+  330  cd ..
+  331  cd project
+  332  cd project/..
+  333  cd project/ansible
+  334  cd project/ansible ..
+  335  cd ~
+  336  cs ~/ansible
+  337  cd ~/ansible
+  338  cd project
+  339  cd ~/ansible
+  340  cd ~/project/ansible
+  341  cd ansible/
+  342  cd ./ansible
+  343  cd ansible/..
+  344  cd ../ansible
+  345  cd~/project/ansible/
+  346  cd ~ /project/ansible/
+  347  ls
+  348  ls -al
+  349  cd ansible/
+  350  cd /ansible
+  351  ansible -i inventory --list-hosts all
+  352  history
+  353  ansible -i inventory
+  354  cd /*ansible
+  355  clear
+  356  cd ./ansible
+  357  sudo vi /etc/ansible/ansible.cfg
+  358  sudo nano /etc/ansible/ansible.cfg
+  359  cd project
+  360  cd ansible
+  361  ls
+  362  cd Ansible
+  363  ls
+  364  history 
+  365  history >> history
+    1  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    2  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    3  wget https://downloads.slack-edge.com/linus_releases/slack-desktop-4.0.2-amd64.deb
+    4  sudo apt install ./slack-desktop-*.deb
+    5  wget https://downloads.slack-edge.com/linus_releases/slack-desktop-4.0.2-amd64.deb
+    6  wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
+    7  sudo apt install ./slack-desktop-*.deb
+    8  ssh-keygen -t rsa -b 4096 -C 'omi.kumari@xillio.com'
+    9  eval '$(sss-agent -s)'
+   10  Is -al ~/.ssh
+   11  ls -al ~/.ssh
+   12  ssh-add ~/.ssh/id_rsa
+   13  cd ~/downloads
+   14  cd ~/download
+   15  cd ~/downloads
+   16  cd ~/Downloads
+   17  sudo dpkg -i code_1.42.1-1581432938_amd64.deb
+   18  cat /var/log/lastlog 
+   19  cat /var/log/syslog
+   20  cat /var/log/syslog | more
+   21  curl https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/
+   22  sudo apt curl
+   23  git init
+   24  cd gittest
+   25  git status
+   26  git add
+   27  git add .
+   28  git stash
+   29  touch stash.py
+   30  gedit stash.py
+   31  git add .
+   32  git status
+   33  git stash show
+   34  gedit stash.py
+   35  git add .
+   36  git status
+   37  git commit -m "make changes"
+   38  getlog --oneline
+   39  cat edureka.py
+   40  cat omi.py
+   41  git revert HEAD
+   42  git checkout gittest
+   43  git checkout test
+   44  sudo apt-get update
+   45  sudo apt-get install software-properties-common
+   46  sudo apt-add-repository ppa:ansible/ansible
+   47  sudo apt-get update
+   48  sudo apt-get install ansible
+   49  ansible all -ping
+   50  ansible all
+   51  ls -al
+   52  ansible all -m setup
+   53  sudo nano /etc/ansible/hosts
+   54  ssh-copy-id -i knode
+   55  sudo nano /etc/ansible/hosts
+   56  ssh-copy-id -i knode
+   57  ssh-keygen
+   58  sudo nano /etc/ansible/hosts
+   59  ssh-copy-id -i knode
+   60  sudo nano /etc/ansible/hosts
+   61  ssh-copy-id -i knode
+   62  ansible -m ping test-servers
+   63  sudo nano /etc/ansible/hosts
+   64  ansible -m ping test-servers
+   65  sudo nano /etc/ansible/hosts
+   66  ansible -m ping test-servers
+   67  sudo nano /etc/ansible/hosts
+   68  ansible -m ping test-servers
+   69  sudo nano /etc/ansible/hosts
+   70  ansible -m ping test-servers
+   71  sudo nano /etc/ansible/hosts
+   72  -vvv
+   73  sudo nano /etc/ansible/hosts -vvv
+   74  sudo nano /etc/ansible/hosts
+   75  ansible -m ping test-servers
+   76  sudo nano /etc/ansible/hosts -vvv
+   77  ansible test-servers -m ping
+   78  ansible <host> -m ping
+   79  ls
+   80  ls -l
+   81  ls --help
+   82  ls -a
+   83  ls -al
+   84  cd .ssh/
+   85  ls
+   86  cat id_rsa.pub 
+   87  cd ~
+   88  cd /
+   89  cd ~
+   90  mkdir project
+   91  ls
+   92  cd project
+   93  git --help
+   94  sudo apt install git
+   95  git --help
+   96  man git
+   97  git clone https://github.com/xillio/lochub-management.git
+   98  git clone git@github.com:xillio/lochub-management.git
+   99  ls
+  100  cd lochub-management/
+  101  ls
+  102  cd home
+  103  git init
+  104  cd /
+  105  git init
+  106  cd lochub-management/
+  107  cd project
+  108  cd projects
+  109  cd project
+  110  cd /project
+  111  cd
+  112  cd projet
+  113  cd ~
+  114  cd project
+  115  cp file test
+  116  copy test
+  117  cp test
+  118  cp --help
+  119  cp file foo
+  120  cp -r directory foo
+  121  cd /
+  122  ls
+  123  cd ~
+  124  ls
+  125  cd project/lochub-management/roles/amazon-linux_update/tasks/
+  126  ls
+  127  cat main.yml 
+  128  nano main.yml 
+  129  vi main.yml 
+  130  vim main.yml 
+  131  sudo apt install vim -y
+  132  vim main.yml 
+  133  nano main.yml 
+  134  ssh bandit@bandit.labs.overthewire.org
+  135  ssh bandit0@bandit.labs.overthewire.org:2220
+  136  man
+  137  man ls
+  138  ls -a
+  139  ls -al
+  140  man ls
+  141  ls -a
+  142  ls-A
+  143  man ls
+  144  la -b
+  145  ls -c
+  146  ls -d
+  147  ls -a
+  148  ssh bandit0@bandit.labs.overthewire.org:2220
+  149  ssh bandit0@bandit.labs.overthewire.org -p2220
+  150  ssh bandit1@bandit.labs.overthewire.org -p2220
+  151  ssh bandit2@bandit.labs.overthewire.org -p2220
+  152  ssh bandit3@bandit.labs.overthewire.org -p2220
+  153  ssh bandit4@bandit.labs.overthewire.org -p2220
+  154  ssh bandit5@bandit.labs.overthewire.org -p2220
+  155  ssh bandit6@bandit.labs.overthewire.org -p2220
+  156  s 
+  157  ssh bandit6@bandit.labs.overthewire.org -p2220
+  158  ssh bandit7@bandit.labs.overthewire.org -p2220
+  159  ssh bandit8@bandit.labs.overthewire.org -p2220
+  160  ssh bandit9@bandit.labs.overthewire.org -p2220
+  161  ssh bandit10@bandit.labs.overthewire.org -p2220
+  162  sudo apt-get install git
+  163  git init
+  164  git config --globaluser.name 'Omi Kumari'
+  165  git config --global user.email 'omi.kumari@xillio.com'
+  166  git add index.html
+  167  git status
+  168  git config username 'omi25m'
+  169  git config user.name 'omi25m'
+  170  git config --global user.name 'omi25m'
+  171  git config --global user.email 'omi25m@gmail.com'
+  172  ls
+  173  mkdir gittest
+  174  cd gittest/
+  175  echo "# gittest" >> README.md
+  176  ls README.md
+  177  git init
+  178  git add README.md
+  179  git commit -m "first commit"
+  180  git remote add origin git@github.com:omi25m/gittest.git
+  181  git push -u origin master
+  182  ls -al
+  183  nano abc.txt
+  184  ls -al
+  185  nano abc.txt
+  186  add abc.txt
+  187  nano abc.txt
+  188  add abc.txt
+  189  git add abc.txt
+  190  git commit abc.txt
+  191  git commit -m "i added text"
+  192  git remote add origin git@github.com:omi25m/gittest.git
+  193  git push -u origin master
+  194  git commit -m "test"
+  195  git push -u origin
+  196  git add abcd.txt
+  197  nano abc.txt
+  198  git add abc.txt
+  199  git commit abc.txt
+  200  git commit -m  abc.txt
+  201  git --version
+  202  git add .
+  203  git commit -m "first commit"
+  204  git status
+  205  touch welcome.py
+  206  git add welcome.py
+  207  git status
+  208  git branch
+  209  git branch feature
+  210  git branch
+  211  git checkout feature
+  212  gedit edurekha.com
+  213  git add.
+  214  git add .
+  215  git commit -m "feature commit"
+  216  git checkout master
+  217  git merge feauture
+  218  git merge feature
+  219  git branch location
+  220  git branch -d feature
+  221  git branch -D feature
+  222  git checkout -b new
+  223  curl https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/
+  224  mkdir curl
+  225  cd curl
+  226  ls al-
+  227  ls -al
+  228  curl https://admin.xill.io:8080/tenants/8a80818f6c05c321016c3a291675002b
+  229  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+  230  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html -o abc.txt
+  231  sudo apt install curl
+  232  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+  233  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html more
+  234  curl https://admin.xill.io:8080/tenants/8a80818f6c05c321016c3a291675002b
+  235  curl https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html more
+  236  cd /
+  237  cd gittest
+  238  cd /gittest
+  239  cd ./gittest
+  240  cd ~./gittest
+  241  cd /gittest..
+  242  cd git-gittest
+  243  cd gittest/
+  244  cd gittest-
+  245  cd -gittest
+  246  cd gittest/
+  247  git init
+  248  get install git
+  249  apt-get install git
+  250  y
+  251  apt-get install git
+  252  add-apt-repository ppa:git-core/ppa
+  253  apt install root
+  254  git config user.name 'omi25m'
+  255  sudo apt-get install software-properties-common
+  256  sudo apt-get install ansible
+  257  ansible-playbook --version
+  258  ansible-galaxy --help
+  259  ansible --list-hosts all
+  260  ansible --list
+  261  ansible --list-host
+  262  sudo vi /etc/ansible/hosts
+  263  ansible --list-hosts -all
+  264  ansible --list-hosts
+  265  cd ansible
+  266  cd ansible/
+  267  cd ./ansible
+  268  cls
+  269  clear
+  270  cd ansible/..
+  271  cd ../ansible
+  272  cd /ansible..
+  273  clear
+  274  ansible --list-hosts all
+  275  ansible --list-hosts al
+  276  ansible --list-hosts
+  277  ansible --list-hosts all
+  278  sudo vi /etc/ansible/hosts
+  279  ansible --list-hosts all
+  280  sudo vi /etc/ansible/hosts
+  281  cd /etc/ansible/
+  282  ls
+  283  nano hosts 
+  284  sudo nano hosts 
+  285  cd ~/project/Ansible/
+  286  ls
+  287  ansible --help
+  288  ansible -i Inventory --list-hosts all
+  289  ansible --list-hosts all
+  290  git status
+  291  cd ..
+  292  ld
+  293  ls
+  294  git clone git@github.com:omi25m/Ansible.git
+  295  mv Ansible Ansible.bak
+  296  git clone git@github.com:omi25m/Ansible.git
+  297  mv Ansible.bak/* Ansible/
+  298  ls Ansible
+  299  git --help
+  300  git: clone
+  301  git init
+  302  git :
+  303  git: clone 
+  304  git init
+  305  git add READ.md
+  306  git add README.md
+  307  git commit -m "first commit"
+  308  git remote add origin git@github.com:omi25m/Ansible.git
+  309  git push -u origin master
+  310  git commit -m "make commit"
+  311  git remote add origin git@github.com:omi25m/Ansible.git
+  312  git push -u origin master
+  313  Ansible >> README.md
+  314  echo "# Ansible" >> README.md
+  315  git init
+  316  git add README.md
+  317  git commit -m "first commit"
+  318  git remote add origin git@github.com:omi25m/Ansible.git
+  319  git push -u origin master
+  320  history 
+  321  cd ..
+  322  ls
+  323  rm Ansible.bak
+  324  rm Ansible.bak -r
+  325  rm Ansible.bak -rf
+  326  ls
+  327  history 
+  328  ansible --list-hosts all
+  329  cd ansible
+  330  cd ..
+  331  cd project
+  332  cd project/..
+  333  cd project/ansible
+  334  cd project/ansible ..
+  335  cd ~
+  336  cs ~/ansible
+  337  cd ~/ansible
+  338  cd project
+  339  cd ~/ansible
+  340  cd ~/project/ansible
+  341  cd ansible/
+  342  cd ./ansible
+  343  cd ansible/..
+  344  cd ../ansible
+  345  cd~/project/ansible/
+  346  cd ~ /project/ansible/
+  347  ls
+  348  ls -al
+  349  cd ansible/
+  350  cd /ansible
+  351  ansible -i inventory --list-hosts all
+  352  history
+  353  ansible -i inventory
+  354  cd /*ansible
+  355  clear
+  356  cd ./ansible
+  357  sudo vi /etc/ansible/ansible.cfg
+  358  sudo nano /etc/ansible/ansible.cfg
+  359  cd project
+  360  cd ansible
+  361  ls
+  362  cd Ansible
+  363  ls
+  364  history 
+  365  history >> history
+  366  ls
+  367  cat history 
+  368  history >>  history
