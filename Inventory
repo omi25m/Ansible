@@ -3,7 +3,7 @@ lb01
 
 [webserver]
 app01
-app02
+app023
 
 [database]
 db01
