@@ -3,10 +3,10 @@
 
 [webserver]
 192.168.178.38
-app02
+192.168.178.40
 
 [database]
-db01
+192.168.178.41
 
 [control]
 control ansible_connection=local
