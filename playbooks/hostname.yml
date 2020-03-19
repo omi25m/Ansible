@@ -3,4 +3,8 @@
   tasks:
     - name: get server hostname
       command: hostname
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> f10aa82649d899679ec161eaf1fb64aebc9563e3
