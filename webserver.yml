@@ -10,4 +10,9 @@
         - python-pip
         - python-virtualenv
 
+    - name: ensure nginx started
+      service: 
+       name: nginx
+       state: started
+       enabled: yes
     
