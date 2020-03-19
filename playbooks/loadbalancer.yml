@@ -2,5 +2,5 @@
 - hosts: loadbalancer
   become: true
   tasks:
-    - name: install nginx
+    - name: install test
       apt: name=nginx state=present update_cache=yes
