@@ -2,7 +2,7 @@
 - hosts: loadbalancer
   become: true
   tasks:
-    - name: install test
+    - name: install nginx
       apt: 
        name: nginx 
        state: present 
