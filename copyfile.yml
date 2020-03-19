@@ -1,0 +1,6 @@
+---
+ - hosts: database
+   user: osboxes
+   tasks:
+    - name: copy file from loadbalancer to database server
+      shell: scp osboxes@192.168.178.39:/home/test /home
