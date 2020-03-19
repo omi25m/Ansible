@@ -2,7 +2,7 @@
 192.168.178.39
 
 [webserver]
-app01
+192.168.178.38
 app02
 
 [database]
