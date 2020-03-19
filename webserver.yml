@@ -2,14 +2,12 @@
 - hosts: webserver
   become: true
   tasks:
-    - name: install apache2
-      apt: name=apache2 state=present update_cache=yes
+    - name: install web components
+      apt: name={{item}} state=present update_cache=yes
+      with_items:
+        - apache2
+        - libapache2-mod-wsqi
+        - python-pip
+        - python-virtualenv
 
-    - name: 
-      apt: name=apache2 state=present update_cache=yes
-
-    - name: install apache2
-      apt: name=apache2 state=present update_cache=yes
-
-    - name: install apache2
-      apt: name=apache2 state=present update_cache=yes
+    
