@@ -16,3 +16,9 @@
        state: started
        enabled: yes
     
+    - name: ensure mod_wsgi enabled
+      apache2_module: name=wsqi state=present
+
+  handlers:
+    - name: restart apache2
+      service: name=apache2 state=restarted
