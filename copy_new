@@ -4,7 +4,7 @@
   - name: copy file from database to loadbalancer
 
     copy:
-     src=/home/test.txt
+     src=/home/text.txt
 
      dest=/home/osboxes
 
