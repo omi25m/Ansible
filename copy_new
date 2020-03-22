@@ -7,4 +7,4 @@
      src: /home/text.txt
      dest: /home/osboxes
      remote_src: yes
-     
+     delegate_src: 192.168.178.39
