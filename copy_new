@@ -3,11 +3,15 @@
   user: osboxes
   tasks:
      - name: copy file from database to loadbalancer
-       fetch: src=/home/osboxes/text.txt dest=/home/osboxes
+       fetch: 
+          src: /home/osboxes/text.txt 
+          dest: /home/osboxes
 
   hosts: loadbalancer
   user: osboxes
   tasks:
      - name: copy file from database to loadbalancer
-       copy: src=/home/osboxes/text.txt dest=/home/osboxes
+       copy: 
+          src: /home/osboxes/text.txt
+          dest: /home/osboxes
   remote_src: yes
