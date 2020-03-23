@@ -5,5 +5,5 @@
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: rsync:/home/osboxes
-       delegate_to: database
+       delegate_to: delegate.database
   
