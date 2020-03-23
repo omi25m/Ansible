@@ -1,9 +1,9 @@
 ---
-- hosts: 192.168.178.39
+- hosts: loadbalancer
   tasks:
-     - name: Synchronization using rsync protocol on delegate host (push)
+     - name: copying file from databse to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: rsync:/home/osboxes
-       delegate_to: 192.168.178.37
+       delegate_to: database
   
