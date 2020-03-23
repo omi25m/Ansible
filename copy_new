@@ -5,5 +5,5 @@
        copy: 
           src: /home/osboxes/text.txt 
           dest: /home/osboxes
-       delegate_to: 192.168.178.37
+       delegate_to: database
   
