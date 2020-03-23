@@ -8,5 +8,3 @@
 [database]
 192.168.178.41
 
-[control]
-control ansible_connection=local
