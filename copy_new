@@ -5,5 +5,6 @@
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: /home/osboxes/copy
+          mode: push
        delegate_to: database
   
