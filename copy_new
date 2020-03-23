@@ -4,6 +4,6 @@
      - name: copying file from database to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
-          dest: rsync:/home/osboxes
+          dest: rsync:192.168.178.39/home/osboxes
        delegate_to: database
   
