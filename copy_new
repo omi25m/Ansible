@@ -1,9 +1,9 @@
 ---
 - hosts: loadbalancer
   tasks:
-     - name: copying file from database to loadbalancer
+     - name: Transfer file from database to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
-          dest: rsync:192.168.178.39/home/osboxes
+          dest: /home/osboxes
        delegate_to: database
   
