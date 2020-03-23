@@ -1,16 +1,9 @@
 ---
-- hosts: database
-  user: osboxes
-  tasks:
-     - name: copy file from database to loadbalancer
-       fetch: 
-          src: /home/osboxes/text.txt 
-          dest: /home/osboxes
-
-  hosts: loadbalancer
-  user: osboxes
+- hosts: loadbalancer
   tasks:
      - name: copy file from database to loadbalancer
        copy: 
-          src: /home/osboxes/text.txt
+          src: /home/osboxes/text.txt 
           dest: /home/osboxes
+       delegate_to: database
+  
