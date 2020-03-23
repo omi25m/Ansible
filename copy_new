@@ -4,6 +4,6 @@
      - name: Transfer file from database to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
-          dest: /home/osboxes
+          dest: /home/osboxes/copy
        delegate_to: database
   
