@@ -1,9 +1,9 @@
 ---
-- hosts: osboxes@192.168.178.39
+- hosts: 192.168.178.39
   tasks:
      - name: Synchronization using rsync protocol on delegate host (push)
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: rsync:/home/osboxes
-       delegate_to: oxboxes@192.168.178.37
+       delegate_to: 192.168.178.37
   
