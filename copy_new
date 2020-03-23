@@ -1,7 +1,7 @@
 ---
 - hosts: loadbalancer
   tasks:
-     - name: copying file from databse to loadbalancer
+     - name: copying file from database to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: rsync:/home/osboxes
