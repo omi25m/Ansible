@@ -1,9 +1,9 @@
 ---
-- hosts: 192.168.178.39
+- hosts: loadbalancer
   tasks:
-     - name: Transfer file from 192.168.178.41 to 192.168.178.39
+     - name: Transfer file from database to loadbalancer
        synchronize: 
           src: /home/osboxes/text.txt 
           dest: /home/osboxes/copy
-       delegate_to: 192.168.178.41
+       delegate_to: database
   
