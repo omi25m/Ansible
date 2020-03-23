@@ -1,5 +1,6 @@
 ---
 - hosts: loadbalancer
+  user: osboxes
   tasks:
      - name: Synchronization using rsync protocol on delegate host (push)
        synchronize: 
