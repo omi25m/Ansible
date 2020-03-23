@@ -14,4 +14,3 @@
        copy: 
           src: /home/osboxes/text.txt
           dest: /home/osboxes
-  remote_src: yes
